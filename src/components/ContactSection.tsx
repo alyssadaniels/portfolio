@@ -24,6 +24,7 @@ export default function ContactSection() {
                     required
                     className="rounded p-1 bg-gray-50"
                     name="name"
+                    id="name"
                 />
                 <br />
                 <label htmlFor="email">E-mail</label>
@@ -31,6 +32,7 @@ export default function ContactSection() {
                     required
                     className="rounded p-1 bg-gray-50"
                     name="email"
+                    id="email"
                 />
                 <br />
                 <label htmlFor="message">Message</label>
@@ -38,6 +40,7 @@ export default function ContactSection() {
                     required
                     className="rounded p-1 bg-gray-50"
                     name="message"
+                    id="message"
                 />
                 <br />
                 <button
