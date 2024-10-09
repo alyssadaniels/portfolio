@@ -8,10 +8,13 @@ export default function AboutSection() {
             <h1 className="font-bold">About Me</h1>
             <br />
             <p>
-                Hi! My name is Alyssa, and I recently graduated from the
-                University of Illinois at Urbana-Champaign with a B.S. in
-                Mathematics and Computer Science. I'm passionate about both the
-                technical and creative sides of development. TODO
+                Hi, my name is Alyssa! I am a recent graduate (B.S. Mathematics
+                and Computer Science) from the University of Illinois at
+                Urbana-Champaign interested in full-stack engineering. I'm
+                passionate about both the technical and creative sides of
+                development. To me, planning and coding projects is like piecing
+                together a puzzle. I enjoy unraveling challenges and seeing my
+                ideas come to life!
             </p>
             <br />
             <p>
