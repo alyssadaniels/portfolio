@@ -8,7 +8,7 @@ export default function Badge(props: { text: string; color: string }) {
     return (
         <div
             className={
-                "text-xs text-orange-50 px-3 p-0.5 rounded-full bg-opacity-70 " +
+                "text-xs text-gray-50 px-3 p-0.5 rounded-full bg-opacity-70 " +
                 props.color
             }
         >

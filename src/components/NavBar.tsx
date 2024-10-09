@@ -4,7 +4,7 @@
  */
 export default function NavBar() {
     return (
-        <nav className="sticky top-0 w-screen flex items-center py-2 min-h-12 text-lime-900 bg-amber-50 border-b-2 text-sm md:text-md">
+        <nav className="sticky top-0 w-screen flex items-center py-2 min-h-12 text-gray-50 bg-lime-900 border-b-2 text-sm md:text-md">
             <ul className="flex justify-evenly items-center w-full">
                 <li>
                     <a href="#top" className="font-bold">

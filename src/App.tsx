@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div id="top" className={`min-h-screen overflow-clip bg-amber-50`}>
+        <div id="top" className={`min-h-screen overflow-clip bg-gray-50`}>
             <NavBar />
 
             <br id="about" />
