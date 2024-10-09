@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "title": "Duel Ace",
+            "summary": "A Blackjack inspired game featuring realtime online play. Players can play alone, with a friend, or with a random player.",
+            "badges": [
+                "TypeScript",
+                "Socket.IO",
+                "Express",
+                "React",
+                "TailwindCSS"
+            ],
+            "githubURL": "https://github.com/alyssadaniels/duel-ace-game",
+            "previewImgURL": "duel-ace-preview.png",
+            "liveURL": "https://duel-ace-game-65466bc601e9.herokuapp.com/"
+        },
+        {
+            "title": "FizzGrid",
+            "summary": "A soft drink review website for people to review and discover drinks.",
+            "badges": [
+                "Python",
+                "Django",
+                "TypeScript",
+                "React",
+                "TanStackQuery",
+                "TailwindCSS"
+            ],
+            "githubURL": "https://github.com/alyssadaniels/fizzgrid-drink-reviews",
+            "previewImgURL": "fizzgrid-preview.png"
+        },
+        {
+            "title": "Pokedex",
+            "summary": "A Pokedex app displaying the first 150 Pokemon. The data displayed is retrieved using PokeAPI.",
+            "badges": ["JavaScript", "React"],
+            "githubURL": "https://github.com/alyssadaniels/pokedex-react-app",
+            "previewImgURL": "pokedex-preview.png",
+            "liveURL": "https://pokedex-react-app-ebon.vercel.app/"
+        }
+    ]
+}
