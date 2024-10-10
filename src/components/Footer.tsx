@@ -7,7 +7,10 @@ import ExternalLink from "./ExternalLink";
 export default function Footer() {
     return (
         <footer className="flex justify-center w-screen text-center text-lime-900 py-8">
-            <ExternalLink text="View source code for this site" url="" />
+            <ExternalLink
+                text="View source code for this site"
+                url="https://github.com/alyssadaniels/portfolio"
+            />
         </footer>
     );
 }
