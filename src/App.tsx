@@ -1,32 +1,21 @@
-import NavBar from "./components/NavBar";
-import ContactSection from "./components/ContactSection";
-import ProjectsSection from "./components/ProjectsSection";
-import AboutSection from "./components/AboutSection";
-import Footer from "./components/Footer";
+import ExternalLink from "./components/ExternalLink";
+import ListSection from "./components/ListSection";
 
 function App() {
     return (
-        <div id="top" className={`min-h-screen overflow-clip bg-gray-50`}>
-            <NavBar />
-
-            <br id="about" />
-
-            <div className="flex flex-col items-center max-w-[90%] md:max-w-[80%] lg:max-w-[55%] mx-auto">
-                <AboutSection />
-
-                <br id="projects" />
-                <br />
-                <br />
-                <ProjectsSection />
-
-                <br id="contact" />
-                <br />
-                <br />
-                <ContactSection />
-            </div>
-
+        <div className="min-h-screen overflow-clip bg-gray-50 p-4 text-lime-900">
+            <ListSection title="Alyssa Daniels / SWE @ Stripe" />
             <br />
-            <Footer />
+            <ListSection title="Education" >
+                <div>University of Illinois at Urbana-Champaign</div>
+                <div>B.S. Mathematics and Computer Science</div>
+            </ListSection>
+            <br />
+            <ListSection title="Links">
+                <ExternalLink url="https://www.linkedin.com/in/alyssasdaniels/" text="LinkedIn"/>
+                <ExternalLink url="https://axodan.itch.io/" text="itch.io" />
+                <ExternalLink url="https://github.com/alyssadaniels" text="GitHub" />
+            </ListSection>
         </div>
     );
 }

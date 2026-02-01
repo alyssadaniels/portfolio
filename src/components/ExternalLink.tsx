@@ -1,5 +1,3 @@
-import { GoLinkExternal } from "react-icons/go";
-
 /**
  * Link to open in new tab
  * @param url
@@ -11,9 +9,9 @@ export default function ExternalLink(props: { url: string; text: string }) {
         <a
             href={props.url}
             target="_blank"
-            className="inline flex gap-2 items-center w-fit hover:underline hover:text-lime-500"
+            className="inline flex gap-2 items-center w-fit underline hover:text-lime-500"
         >
-            {props.text} <GoLinkExternal />
+            {props.text}
         </a>
     );
 }
